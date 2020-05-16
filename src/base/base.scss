@@ -1,0 +1,83 @@
+.hdr {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+}
+
+.hdr_dropdown_hidden {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    bottom: 100%;
+}
+
+.hdr_dropdown {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    background-color: rgba(0,0,0,.5);
+    animation: slide-in .5s linear;
+}
+
+@keyframes slide-in {
+    0% {bottom: 50%; background-color: rgba(0,0,0,0);}
+    100% {bottom: 0; background-color: rgba(0,0,0,.7);}
+}
+
+.hdr_drp_item {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hdr_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.hdr_left {
+    justify-content: flex-start;
+}
+
+.hdr_right {
+    justify-content: flex-end;
+}
+
+.hdr_item {
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px 20px 15px;
+    margin: 0 10px 0 10px;
+}
+
+.hdr_item:hover {
+    border-bottom: 1px solid white ;
+}
+
+
+.ftr {
+    min-height: 300px;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    padding: 50px 0 100px 0;
+}
+
+.ftr_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.footer_sub_section {
+    padding: 50px 25px 25px 50px;
+    flex: 1
+}

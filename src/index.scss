@@ -1,0 +1,184 @@
+$color-primary: #23395d;
+$color-secondary: #E7C39C;
+$color-accent: lightgray;
+$color-accent2: #95D8EB;
+$color-white: white;
+$color-black: rgb(38,39,39);
+$color-gray: lightgray;
+
+$font-body: 'Lora', serif;
+$font-headings: 'Montserrat', sans-serif;
+$font-size: 18px;
+$line-height: 16px;
+
+body {
+    font-family: $font-body;
+    font-size: $font-size;
+    line-height: $font-size + 6;
+    color: $color-black;
+    margin: 0;
+}
+
+/* LINKS */
+a { 
+    text-decoration: none; 
+    color: inherit; 
+
+    :hover {
+        color: $color-gray;
+    }
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    margin: 5px 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: $font-headings;
+    font-size: $font-size * 3;
+    line-height: $font-size * 3 + $line-height;
+}
+
+h2 {
+    font-family: $font-headings;
+    font-size: $font-size * 2.5;
+    line-height: $font-size * 2.5 + $line-height;
+}
+
+h3 {
+    font-family: $font-headings;
+    font-size: $font-size * 1.5;
+    line-height: $font-size * 2 + $line-height;
+}
+
+h4 {
+    font-family: $font-headings;
+    font-size: $font-size;
+    line-height: $font-size + $line-height;
+}
+
+h5 {
+    font-size: $font-size * .8;
+    line-height: $font-size * .8 + $line-height;
+}
+
+/* Buttons */
+button:focus {
+    outline: 0;
+}
+
+
+
+button {
+    font-family: $font-headings;
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    border-radius: 5px;
+
+    :focus {
+        outline: 0
+    }
+    
+    &.fluid {
+        width: 100%;
+    }
+}
+
+.btn-b {
+    background-color: $color-black;
+    color: $color-white;
+}
+
+.btn-w {
+    background-color: $color-white;
+    color: $color-black;
+}
+
+.btn-primary {
+    font-family: $font-headings;
+    background-color: $color-primary;
+    color: $color-white;
+    
+    :hover {
+        background-color: $color-secondary;
+    }
+}
+
+.btn-secondary {
+    font-family: $font-headings;
+    background-color: $color-secondary;
+    color: $color-white;
+
+    :hover {
+        background-color: $color-primary;
+    }
+}
+
+/* Tabs */
+.tab-1 {
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 5px 0 5px;
+    border: 1px solid $color-gray;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 3px 3px 10px -3px $color-gray;;
+}
+.tab-2 {
+    background-color: $color-white;
+    color: $color-black;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 5px -1px 5px;
+    border: 1px solid $color-gray;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 0px 10px -3px $color-gray;;
+}
+
+/* UNDERLINES */
+.underline { text-decoration: underline; text-underline-position: under;}
+
+/* BACKGOUND COLORS */
+.bg-b { background-color: $color-black; }
+.bg-g { background-color: $color-gray }
+.bg-w { background-color: $color-white }
+.bg-1 { background-color: $color-primary; }
+.bg-2 { background-color: $color-secondary }
+.bg-3 { background-color: $color-accent }
+.bg-4 { background-color: $color-accent2 }
+
+/*  COLORS */
+.clr-b { color: $color-black; }
+.clr-g { color: $color-gray; }
+.clr-w { color: $color-white; }
+.clr-1 { color: $color-primary; }
+.clr-2 { color: $color-secondary; }
+.clr-3 { color: $color-accent }
+.clr-4 { color: $color-accent2 }
+
+/* BORDERS */
+.brdr { border: 1px solid $color-gray; }
+.brdr-t { border-top: 1px solid $color-gray; }
+.brdr-b { border-bottom: 1px solid $color-gray;}
+.brdr-l { border-left: 1px solid $color-gray; }
+.brdr-r { border-right: 1px solid $color-gray; }
+
+/* BOX SHADOW */
+.bs-light { box-shadow: 3px 3px 10px -3px $color-gray;}
+.bs-medium { box-shadow: 5px 5px 12px -5px $color-gray;}
+
+/* BORDER RADIUS */
+.br-s { border-radius: 5px;}
+
+/* PADDING */
+.pd-s { padding: 10px; }
+.pd-m { padding: 25px; }
+.pd-l { padding: 50px; }
+
+/* MARGIN */
+.mg-s { margin: 10px; }
+.mg-1 { margin: 0 10px 10px 10px; }
+.mg-m { margin: 25px; }
+.mg-l { margin: 50px; }

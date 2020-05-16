@@ -1,0 +1,170 @@
+{
+    "questions": [
+        {
+            "num": 1,
+            "type": "text",
+            "question": "What did Gandalf say to his clan before falling to his death?",
+            "img_path": "/gandalf/gandalf.jpg",
+            "true": "Fly, You Fools!",
+            "false": "Run, You Fools!"
+        },
+        {
+            "num": 2,
+            "type": "text",
+            "question": "What is the famous line from Forrest Gump?",
+            "img_path": "/gump/gump.jpg",
+            "true": "Life was like a box of chocolates.",
+            "false": "Life is like a box of chocolates."
+        },
+        {
+            "num": 3,
+            "type": "text",
+            "question": "When did Neil Armstrong Die?",
+            "img_path": "/niel/niel.jpg",
+            "true": "2012",
+            "false": "He's Still Alive!"
+        },
+        {
+            "num": 4,
+            "type": "text",
+            "question": "The end of the song 'We Are The Champions' by Queen is?",
+            "img_path": "/queen/queen.jpg",
+            "true": "We are the champions...",
+            "false": "We are the champions....of the world!"
+        },
+        {
+            "num": 5,
+            "type": "text",
+            "question": "The opening song to Mr. Rogers' Neighborhood includes this line?",
+            "img_path": "/rogers/rogers.jpg",
+            "true": "It's a beautiful day in this neighborhood...",
+            "false": "It's a beautiful day in the neighborhood..."
+        },
+        {
+            "num": 6,
+            "type": "text",
+            "question": "Who is this bear?",
+            "img_path": "/smokey/smokey.jpg",
+            "true": "Smokey Bear",
+            "false": "Smokey the Bear"
+        },
+        {
+            "num": 7,
+            "type": "text",
+            "question": "What does the Wicked Queen say to the Mirror?",
+            "img_path": "/snow-white/snow-white.jpg",
+            "true": "Magic Mirror on the Wall",
+            "false": "Mirror, Mirror on the Wall"
+        },
+        {
+            "num": 8,
+            "type": "text",
+            "question": "Darth Vader says what to Luke in this iconic scene?",
+            "img_path": "/vader/vader.jpg",
+            "true": "I am your father.",
+            "false": "Luke, I am your father."
+        },
+        {
+            "num": 9,
+            "type": "image",
+            "img_path_true": "/bears/2.png",
+            "img_path_false": "/bears/1.png"
+        },
+        {
+            "num": 10,
+            "type": "image",
+            "img_path_true": "/c3po/2.png",
+            "img_path_false": "/c3po/1.png"
+        },
+        {
+            "num": 11,
+            "type": "image",
+            "img_path_true": "/cheez/2.png",
+            "img_path_false": "/cheez/1.png"
+        },
+        {
+            "num": 12,
+            "type": "image",
+            "img_path_true": "/curious/2.png",
+            "img_path_false": "/curious/1.png"
+        },
+        {
+            "num": 13,
+            "type": "image",
+            "img_path_true": "/feb/2.png",
+            "img_path_false": "/feb/1.png"
+        },
+        {
+            "num": 14,
+            "type": "image",
+            "img_path_true": "/flin/2.png",
+            "img_path_false": "/flin/1.png"
+        },
+        {
+            "num": 15,
+            "type": "image",
+            "img_path_true": "/fruit/2.png",
+            "img_path_false": "/fruit/1.png"
+        },
+        {
+            "num": 16,
+            "type": "image",
+            "img_path_true": "/jif/2.png",
+            "img_path_false": "/jif/1.png"
+        },
+        {
+            "num": 17,
+            "type": "image",
+            "img_path_true": "/kit/2.png",
+            "img_path_false": "/kit/1.png"
+        },
+        {
+            "num": 18,
+            "type": "image",
+            "img_path_true": "/loops/2.png",
+            "img_path_false": "/loops/1.png"
+        },
+        {
+            "num": 19,
+            "type": "image",
+            "img_path_true": "/luney/2.png",
+            "img_path_false": "/luney/1.png"
+        },
+        {
+            "num": 20,
+            "type": "image",
+            "img_path_true": "/mona/2.png",
+            "img_path_false": "/mona/1.png"
+        },
+        {
+            "num": 21,
+            "type": "image",
+            "img_path_true": "/mono/2.png",
+            "img_path_false": "/mono/1.png"
+        },
+        {
+            "num": 22,
+            "type": "image",
+            "img_path_true": "/oreo/2.png",
+            "img_path_false": "/oreo/+1.png"
+        },
+        {
+            "num": 23,
+            "type": "image",
+            "img_path_true": "/oscar/2.png",
+            "img_path_false": "/oscar/1.png"
+        },
+        {
+            "num": 24,
+            "type": "image",
+            "img_path_true": "/pika/2.png",
+            "img_path_false": "/pika/1.png"
+        },
+        {
+            "num": 25,
+            "type": "image",
+            "img_path_true": "/shoes/2.png",
+            "img_path_false": "/shoes/1.png"
+        }
+    ]
+}
