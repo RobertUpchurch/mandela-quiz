@@ -1,0 +1,7 @@
+{
+    "tableName": "mandela-scoreboard",
+    "partitionKeyName": "pk",
+    "partitionKeyType": "S",
+    "sortKeyName": "sk",
+    "sortKeyType": "S"
+}

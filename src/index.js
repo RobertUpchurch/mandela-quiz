@@ -4,9 +4,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import AppProvider from './context/AppProvider';
 import App from './App';
 import './index.scss';
-// import Amplify from 'aws-amplify'
-// import awsconfig from './aws-exports';
-// Amplify.configure(awsconfig);
+import Amplify from 'aws-amplify'
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
 
 ReactDOM.render(
   <React.StrictMode>

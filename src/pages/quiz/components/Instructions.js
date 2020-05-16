@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import AppContext from '../../../context/AppContext';
 
 const Instructions = (props) => {
+
+    const { name, set_name } = useContext(AppContext);
+
     return (
         <div className="brdr bs-light pd-m ">
             <h2>Instructions</h2>
@@ -19,7 +23,13 @@ const Instructions = (props) => {
                 <h4>Type 2: Text</h4>
                 <p>Text questions will give you two quotes or phrases from pop culture. You must select the accurate quote or phrase.</p>
             </div>
-            <button className="btn-primary fluid" onClick={props.handleStart}>Start Quiz</button>
+            <form>
+                <label>Enter Name:</label>
+                <br />
+                <input className="input-1" name="name" value={name} type="text" onChange={(e) => set_name(e.target.value)} />
+                <br />
+                <button className="btn-primary fluid" onClick={props.handleStart}>Start Quiz</button>
+            </form>
         </div>
     )
 }

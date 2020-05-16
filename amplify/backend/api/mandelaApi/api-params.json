@@ -1,0 +1,45 @@
+{
+    "paths": [
+        {
+            "name": "/scores",
+            "lambdaFunction": "mandelaLambda",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET"
+                ]
+            }
+        }
+    ],
+    "resourceName": "mandelaApi",
+    "apiName": "mandelaApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "mandelaLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-mandela-quiz-dev-204329-authRole",
+        "unAuthRoleName": "amplify-mandela-quiz-dev-204329-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mandelaLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "2356d3b8"
+}

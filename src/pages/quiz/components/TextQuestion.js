@@ -2,13 +2,13 @@ import React from 'react';
 
 const TextQuestion = (props) => {
 
-    const { question, handleCorrect, handleIncorrect, handleSkip, score, num, first_true } = props;
+    const { question, handleCorrect, handleIncorrect, handleSkip, num, first_true } = props;
     const url = "https://d1e6isb6acaf7p.cloudfront.net/text";
     
     return (
         <div className="text-question brdr bs-light pd-m">
             <div>
-                <h4>Question: {num} | Score: {score}</h4>
+                <h4>Question: {num + 1}</h4>
                 <p>{question.question}</p>
             </div>
             <div className="image">

@@ -1,0 +1,11 @@
+{
+    "permissions": {
+        "storage": {
+            "mandelaDB": [
+                "create",
+                "read",
+                "update"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mandela-quiz-dev-204329-authRole",
+            "UnauthRoleArn": "arn:aws:iam::483479566605:role/amplify-mandela-quiz-dev-204329-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::483479566605:role/amplify-mandela-quiz-dev-204329-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-mandela-quiz-dev-204329-deployment",
+            "UnauthRoleName": "amplify-mandela-quiz-dev-204329-unauthRole",
+            "StackName": "amplify-mandela-quiz-dev-204329",
+            "StackId": "arn:aws:cloudformation:us-east-1:483479566605:stack/amplify-mandela-quiz-dev-204329/6afa03b0-9727-11ea-8b3d-0a8267cebc39",
+            "AmplifyAppId": "d2idp4up7frofd"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2idp4up7frofd",
+                    "type": "manual"
+                }
+            },
+            "auth": {
+                "cognitodf3ec1a1": {}
+            }
+        }
+    }
+}

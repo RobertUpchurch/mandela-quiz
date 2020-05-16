@@ -4,7 +4,7 @@ import AppContext from './AppContext';
 
 const AppProvider = (props) => {
 
-    const [ name, set_name ] = useState();
+    const [ name, set_name ] = useState("");
     const [ score, set_score ] = useState(0);
     const [ questions, set_questions] = useState(questionsJSON.questions)
 

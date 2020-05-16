@@ -8,13 +8,17 @@ import './index.scss';
 
 const Quiz = () => {
 
-    const  { questions, score, set_score } = useContext(AppContext);
+    const  { questions, score, set_score, name } = useContext(AppContext);
     const [ num, set_num ] = useState(-1);
     const first_true = Math.ceil(Math.random() * 10) > 5;
     const len = questions.length;
 
     const handleStart = () => {
-        set_num(0);
+        if ( name ) {
+            set_num(0);
+        } else {
+            alert("You must Enter Your Name")
+        }
     }
 
     const handleCorrect = () => {
@@ -53,7 +57,6 @@ const Quiz = () => {
                     handleIncorrect={handleIncorrect} 
                     handleSkip={handleSkip}
                     num={num}
-                    score={score}
                     first_true={first_true}
                     /> :
                 <ImageQuestion 
@@ -62,7 +65,6 @@ const Quiz = () => {
                     handleIncorrect={handleIncorrect} 
                     handleSkip={handleSkip}
                     num={num}
-                    score={score}
                     first_true={first_true}
                 />
             }
