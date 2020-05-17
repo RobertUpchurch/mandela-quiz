@@ -1,9 +1,9 @@
 $color-primary: #23395d;
-$color-secondary: #E7C39C;
-$color-accent: lightgray;
+$color-secondary: lightgray;
+$color-accent: #E7C39C;
 $color-accent2: #95D8EB;
 $color-white: white;
-$color-black: rgb(38,39,39);
+$color-black: black;
 $color-gray: lightgray;
 
 $font-body: 'Lora', serif;
@@ -109,7 +109,7 @@ button {
 .btn-secondary {
     font-family: $font-headings;
     background-color: $color-secondary;
-    color: $color-white;
+    color: $color-black;
 
     :hover {
         background-color: $color-primary;
