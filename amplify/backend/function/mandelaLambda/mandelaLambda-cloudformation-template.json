@@ -77,7 +77,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-mandela-quiz-dev-204329-deployment",
-					"S3Key": "amplify-builds/mandelaLambda-594b4e31426f41784753-build.zip"
+					"S3Key": "amplify-builds/mandelaLambda-35774a712b4465787876-build.zip"
 				}
 			}
 		},

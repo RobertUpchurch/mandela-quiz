@@ -52,7 +52,7 @@ app.get("/scores/getScores", (req, res) => {
       res.statusCode = 500;
       res.json({message: "Unable to Get Scores", err: err})
     } else {
-      res.statusCode(200);
+      res.statusCode = 200;
       res.json({data: data, message: "success getting scores"})
     }
   })
